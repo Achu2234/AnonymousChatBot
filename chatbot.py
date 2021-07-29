@@ -148,7 +148,7 @@ def search_prof(message):
             bot.send_message(message.from_user.id, '_Succeeded..Your Profile Deleted✅_', parse_mode="markdown", reply_markup=tw)
             welcome(message)
     else:
-        bot.send_message(message.from_user.id, 'Klik Yang ada dikeyboard')
+        bot.send_message(message.from_user.id, 'Click on the keyboard')
         bot.register_next_step_handler(message, search_prof)
 
 
@@ -165,7 +165,7 @@ def search_partner(message):
         else:
             for sel in select:
                 if check_status(first_id=message.from_user.id, second_id=sel[0]) or message.from_user.id == sel[0]:
-                    print(message.from_user.id, 'Bergabung')
+                    print(message.from_user.id, 'Join @AsmSafone Bot Made By @AmiFutami')
                     continue
 
                 else:
