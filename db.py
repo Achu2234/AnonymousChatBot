@@ -79,7 +79,7 @@ def get_info(conn, user_id: int):  # Retrieving all information about a user fro
 
 @ensure_connections
 def init_queue(conn, force: bool = False):
-    "" "Check the existence of the table, otherwise recreate it
+    """ Check the existence of the table, otherwise recreate it
                : param conn: connect to DBMS
                : param force: explicitly re-create all tables
            """
