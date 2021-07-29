@@ -7,9 +7,10 @@ A Simple Telegram Bot To Chat Other in telegram by A bot
 - Supports Inline button
 - And More Features Coming Soon ...
 
-#Devs
-KEN KAN <https://github.com/kenkansaja>
-Achu Biju <https://t.me/AmiFutami>
+### Devs
+
+[KEN KAN](https://github.com/kenkansaja)
+[Achu Biju](https://t.me/AmiFutami)
 
 
 
